@@ -23,8 +23,8 @@ public class GameScreen extends GameState{
 		
 		tileMap = new TileMap(32, 1);
 		tileMap.loadTiles("/T_1.png");
-		tileMap.loadMap("/Users/Kimhuibeom/eclipse-workspace/Evolution Game/Resources/M1_1.csv");
-		tileMap.loadMap("/Users/Kimhuibeom/eclipse-workspace/Evolution Game/Resources/M1_2.csv");
+		tileMap.loadMap("Resources/M1_1.csv");
+		tileMap.loadMap("Resources/M1_2.csv");
 	
 		tileMap.setMapNumber(1);
 		
